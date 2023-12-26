@@ -975,6 +975,10 @@ video {
   resize: both;
 }
 
+.list-outside {
+  list-style-position: outside;
+}
+
 .list-decimal {
   list-style-type: decimal;
 }
@@ -1529,6 +1533,10 @@ video {
   padding-top: 1.25rem;
 }
 
+.pl-7 {
+  padding-left: 1.75rem;
+}
+
 .text-left {
   text-align: left;
 }
@@ -2025,11 +2033,6 @@ details[open] div ul li details[open] summary span svg {
   .sm\:justify-center {
     justify-content: center;
   }
-
-  .sm\:text-2xl {
-    font-size: 1.5rem;
-    line-height: 2rem;
-  }
 }
 
 @media (min-width: 768px) {
@@ -2195,6 +2198,10 @@ details[open] div ul li details[open] summary span svg {
     padding-left: 1.25rem;
   }
 
+  .md\:text-center {
+    text-align: center;
+  }
+
   .md\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
@@ -2245,6 +2252,10 @@ details[open] div ul li details[open] summary span svg {
   .lg\:w-fit {
     width: -moz-fit-content;
     width: fit-content;
+  }
+
+  .lg\:w-full {
+    width: 100%;
   }
 
   .lg\:grid-cols-1 {
