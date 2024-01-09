@@ -413,7 +413,7 @@
         </div>
     </header>
 
-    <main class="flex flex-col w-full mx-auto pt-16 lg:pt-5">
+    <main class="flex flex-col w-full mx-auto ">
 
         <div class="flex fixed md:hidden z-20 bottom-0 w-full mx-auto bg-white enquire-btn">
             <button
@@ -444,9 +444,9 @@
         </div>
 
         <section id="Hero" class="flex w-full">
-            <div class="flex w-full h-screen min-h-min md:max-h-[730px] md:max-w-screen-2xl mx-auto ">
+            <div class="flex w-full h-screen min-h-min md:max-h-[830px] md:max-w-screen-2xl mx-auto pt-16 ">
                 <div
-                    class="flex w-full h-full bg-fd-hero-banner bg-[length:auto_100%] md:bg-[length:auto_100%] bg-no-repeat bg-[bottom_left_10%]  md:bg-right">
+                    class="flex w-full h-full bg-fd-hero-banner bg-[length:auto_100%] md:bg-[length:auto_100%] bg-no-repeat bg-[bottom_left_10%]  md:bg-[bottom_right]">
                     <div
                         class="grid grid-cols-1 md:grid-cols-2 w-full max-w-7xl mx-auto px-5 py-5 md:py-10 lg:py-10 items-start justify-center">
                         <div class="flex flex-col gap-5 w-full h-full md:items-start md:justify-center">
@@ -457,8 +457,10 @@
                                     <div class="flex h-auto w-full">
                                         <span
                                             class="flex flex-col h-fit text-4xl md:text-5xl lg:text-5xl+ font-bold lg:font-extrabold w-full">
-                                            <h1>Bachelor in Fashion</h1>
-                                            <h1 class="pl-0 md:pl-40">Design Course</h1>
+                                            <h1>
+                                                <span>Bachelor in Fashion</span>
+                                                <span>Design Course</span>
+                                            </h1>
                                         </span>
                                     </div>
                                 </div>
@@ -925,15 +927,14 @@
                                 </tr>
                             </tbody>
                         </table>
-
-
-
-                        <div class="flex flex-col w-full py-5 gap-5">
-                            <div
-                                class="flex w-full gap-2  flex-col py-5 px-5 justify-center items-center font-bold text-lg">
-                                The Mode of Payment for ITM fashion designing courses are mentioned below
-                            </div>
-                            <div class=" md:grid md:grid-cols-2 lg:grid-cols-3 gap-5 w-fit mx-auto">
+                    </div>
+                    <div class="flex flex-col w-full py-5 gap-5">
+                        <div
+                            class="flex w-full gap-2  flex-col py-5 px-5 justify-center items-center font-bold text-lg">
+                            The Mode of Payment for ITM fashion designing courses are mentioned below
+                        </div>
+                        <div class="flex w-full overflow-x-scroll py-3 card-scroll md:overflow-x-hidden">
+                            <div class="flex md:grid md:grid-cols-2 lg:grid-cols-3 gap-5 w-fit mx-auto">
 
                                 <div
                                     class="flex flex-col w-80 max-w-xs px-5 py-5 bg-brand-red rounded-xl gap-5 transition-all hover:shadow-md hover:-translate-y-2 ">
@@ -1158,42 +1159,44 @@
 
                             </ul>
                         </div>
-                        <div class="flex flex-col md:flex-row items-center justify-center gap-3 w-full">
+                        <div class="flex flex-col md:flex-row items-center justify-between gap-3 w-full">
                             <div class="flex w-fit">
                                 <h3 class="flex w-full text-brand-red text-lg  font-bold">
                                     Campuses At:
                                 </h3>
                             </div>
 
-                            <div class="flex w-fit items-center justify-center md:max-w-4xl mx-auto gap-2">
-                                <div onclick="window.location.href='https://www.itm.edu/itm-idm-andheri'"
-                                    class="flex flex-col gap-2 w-40 max-w-xs items-center justify-center px-2 py-4 rounded-md border border-gray-300 transition-all cursor-pointer hover:-translate-y-2">
-                                    <div class="flex w-full items-center justify-center h-auto">
-                                        <img loading="lazy" class="flex w-14 h-14 object-contain"
-                                            src="../public/assets/icons/Navi-mumbai-campus.webp" alt="">
+                            <div class="flex w-fit gap-5">
+                                <div class="flex w-fit items-center justify-center md:max-w-4xl mx-auto gap-2">
+                                    <div onclick="window.location.href='https://www.itm.edu/itm-idm-andheri'"
+                                        class="flex flex-col gap-2 w-40 max-w-xs items-center justify-center px-2 py-4 rounded-md border border-gray-300 transition-all cursor-pointer hover:-translate-y-2">
+                                        <div class="flex w-full items-center justify-center h-auto">
+                                            <img loading="lazy" class="flex w-14 h-14 object-contain"
+                                                src="../public/assets/icons/Navi-mumbai-campus.webp" alt="">
+                                        </div>
+                                        <div class="flex w-full">
+                                            <span
+                                                class="flex w-full text-brand-red items-center justify-center text-center text-sm">Mumbai</span>
+                                        </div>
                                     </div>
-                                    <div class="flex w-full">
-                                        <span
-                                            class="flex w-full text-brand-red items-center justify-center text-center text-sm">Mumbai</span>
-                                    </div>
+    
                                 </div>
-
-                            </div>
-
-                            <div class="flex w-fit items-center justify-center md:max-w-4xl mx-auto gap-2">
-                                <div onclick="window.location.href='https://www.itm.edu/itm-idm-andheri'"
-                                    class="flex flex-col gap-2 w-40 max-w-xs items-center justify-center px-2 py-4 rounded-md border border-gray-300 transition-all cursor-pointer hover:-translate-y-2">
-                                    <div class="flex w-full items-center justify-center h-auto">
-                                        <img loading="lazy" class="flex w-14 h-14 object-contain"
-                                            src="../public/assets/icons/Navi-mumbai-campus.webp" alt="">
+    
+                                <div class="flex w-fit items-center justify-center md:max-w-4xl mx-auto gap-2">
+                                    <div onclick="window.location.href='https://www.itm.edu/itm-idm-andheri'"
+                                        class="flex flex-col gap-2 w-40 max-w-xs items-center justify-center px-2 py-4 rounded-md border border-gray-300 transition-all cursor-pointer hover:-translate-y-2">
+                                        <div class="flex w-full items-center justify-center h-auto">
+                                            <img loading="lazy" class="flex w-14 h-14 object-contain"
+                                                src="../public/assets/icons/Navi-mumbai-campus.webp" alt="">
+                                        </div>
+                                        <div class="flex w-full">
+                                            <span
+                                                class="flex w-full text-brand-red items-center justify-center text-center text-sm">Navi
+                                                Mumbai</span>
+                                        </div>
                                     </div>
-                                    <div class="flex w-full">
-                                        <span
-                                            class="flex w-full text-brand-red items-center justify-center text-center text-sm">Navi
-                                            Mumbai</span>
-                                    </div>
+    
                                 </div>
-
                             </div>
                         </div>
                     </div>
@@ -1479,7 +1482,7 @@
                     </div>
                     <div class="flex w-full flex-col items-center justify-center gap-3 md:order-1">
                         <div
-                            class="flex h-auto w-full flex-col gap-3 text-sm md:items-center md:justify-center md:text-base">
+                            class="flex h-auto w-full flex-col gap-3 text-sm max-w-lg md:items-center md:justify-center md:text-base">
                             <!-- <div class="flex w-full text-base font-bold text-brand-red ">
                                           HEAD.HAND.HEART
                                       </div> -->

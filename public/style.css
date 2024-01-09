@@ -953,6 +953,10 @@ video {
   max-width: 20rem;
 }
 
+.max-w-lg {
+  max-width: 32rem;
+}
+
 .border-collapse {
   border-collapse: collapse;
 }
@@ -1145,6 +1149,10 @@ video {
 
 .overflow-hidden {
   overflow: hidden;
+}
+
+.overflow-scroll {
+  overflow: scroll;
 }
 
 .overflow-x-auto {
@@ -1517,6 +1525,10 @@ video {
   padding-left: 1.5rem;
 }
 
+.pl-7 {
+  padding-left: 1.75rem;
+}
+
 .pt-12 {
   padding-top: 3rem;
 }
@@ -1531,10 +1543,6 @@ video {
 
 .pt-5 {
   padding-top: 1.25rem;
-}
-
-.pl-7 {
-  padding-left: 1.75rem;
 }
 
 .text-left {
@@ -2095,6 +2103,10 @@ details[open] div ul li details[open] summary span svg {
     max-height: 730px;
   }
 
+  .md\:max-h-\[830px\] {
+    max-height: 830px;
+  }
+
   .md\:w-4 {
     width: 1rem;
   }
@@ -2176,8 +2188,16 @@ details[open] div ul li details[open] summary span svg {
     background-size: auto 100%;
   }
 
+  .md\:bg-\[length\:auto_90\%\] {
+    background-size: auto 90%;
+  }
+
   .md\:bg-right {
     background-position: right;
+  }
+
+  .md\:bg-\[bottom_right\] {
+    background-position: bottom right;
   }
 
   .md\:px-5 {
